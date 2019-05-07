@@ -62,7 +62,7 @@ end
 def runner
   # code runner here
   total=0
-  until total>=21 do 
+  until total>21 do 
     welcome
     initial_round
     hit?
