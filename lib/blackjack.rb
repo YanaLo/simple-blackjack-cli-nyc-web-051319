@@ -63,6 +63,10 @@ def runner
   # code runner here
   until total>=21 do 
     welcome
-    
+    initial_round
+    hit?
+    display_card_total
+end
+end_game
 end
     
