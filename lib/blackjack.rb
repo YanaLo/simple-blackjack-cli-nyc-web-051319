@@ -62,6 +62,7 @@ end
 def runner
   # code runner here
   total=0
+  initial_round
   until total>21 do 
     welcome
     initial_round
