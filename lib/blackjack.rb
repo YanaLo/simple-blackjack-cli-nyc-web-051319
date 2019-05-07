@@ -61,6 +61,7 @@ end
 #   then calls on the #end_game method"
 def runner
   # code runner here
+  welcome
   total=0
   initial_round
   until total>21 do 
