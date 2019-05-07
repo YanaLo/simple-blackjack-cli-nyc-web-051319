@@ -57,5 +57,6 @@ end
 
 def runner
   # code runner here
+  until total
 end
     
