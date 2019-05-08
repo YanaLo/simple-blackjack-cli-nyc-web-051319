@@ -61,8 +61,8 @@ end
 #   then calls on the #end_game method"
 def runner
   # code runner here
-  welcome
   # total=0
+  welcome
   input=initial_round
   until input>21 
   input=hit?(input)
