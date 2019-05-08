@@ -64,7 +64,7 @@ def runner
   # total=0
   welcome
   input=initial_round
-  until input>21 
+  until input > 21 
   input=hit?(input)
    input= display_card_total(input)
 end
